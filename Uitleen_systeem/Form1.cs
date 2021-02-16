@@ -1,21 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+using System.Data;
+
 
 namespace Uitleen_systeem
 {
     public partial class Form1 : Form
     {
+
+
+
+        MySqlConnection mysqlcon = null;
+
+        int i;
         public Form1()
         {
             InitializeComponent();
+
+            
+            string server = "localhost";
+
+            string database = "uitleen_systeem";
+
+            string dbUsername = "root";
+
+            string dbPassword = "";
+
+
+
+            string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+
+                database + ";" + "UID=" + dbUsername + ";" + "PASSWORD=" + dbPassword + ";";
+
+
+            mysqlcon = new MySqlConnection(connectionString);
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -25,22 +51,33 @@ namespace Uitleen_systeem
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            SqlConnection sqlcon = new SqlConnection(@"http://localhost/phpmyadmin/tbl_structure.php?db=uitleen_systeem&table=inlog_gegv");
-            string query = "Select * from inlog_gegv Where username= '" + txtUsername.Text.Trim() + "'and password = '" + txtPassword.Text.Trim();
-            SqlDataAdapter sda = new SqlDataAdapter(query, sqlcon);
+            i = 0;
+            mysqlcon.Open();
+            MySqlCommand cmd = mysqlcon.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "Select * from inlog_gegv Where username= '" + txtUsername.Text.Trim() + "'and password = '" + txtPassword.Text.Trim() + "' ";
+            cmd.ExecuteNonQuery();
             DataTable dtbl = new DataTable();
+            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
             sda.Fill(dtbl);
-            if (dtbl.Rows.Count==1)
+            i = Convert.ToInt32(dtbl.Rows.Count.ToString());
+
+            
+            
+            
+            if (i == 0)
+            {
+                MessageBox.Show("Uw gebruikersnaam of wachtwoord is onjuist. Probeer opnieuw.");
+                
+            }
+            else
             {
                 formMain objformMain = new formMain();
                 objformMain.Show();
             }
-            else
-            {
-                MessageBox.Show("Uw gebruikersnaam of wachtwoord is onjuist. Probeer opnieuw.");
-            }
-            
+            mysqlcon.Close();
         }
+        
 
         private void btnExit_Click(object sender, EventArgs e)
         {
