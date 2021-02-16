@@ -39,12 +39,13 @@ namespace Uitleen_systeem
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(55, 158);
+            this.btnLogin.Location = new System.Drawing.Point(60, 158);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(129, 19);
+            this.btnLogin.Size = new System.Drawing.Size(129, 27);
             this.btnLogin.TabIndex = 0;
             this.btnLogin.Text = "Inloggen";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label1
             // 
@@ -61,6 +62,7 @@ namespace Uitleen_systeem
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(170, 20);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // label2
             // 
@@ -78,15 +80,18 @@ namespace Uitleen_systeem
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(170, 20);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // btnExit
             // 
             this.btnExit.Location = new System.Drawing.Point(230, 158);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(129, 19);
+            this.btnExit.Size = new System.Drawing.Size(129, 27);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // Form1
             // 

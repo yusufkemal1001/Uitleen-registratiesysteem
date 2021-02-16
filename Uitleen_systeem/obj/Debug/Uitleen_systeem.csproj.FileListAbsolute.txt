@@ -1,0 +1,11 @@
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\bin\Debug\Uitleen_systeem.exe.config
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\bin\Debug\Uitleen_systeem.exe
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\bin\Debug\Uitleen_systeem.pdb
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csprojAssemblyReference.cache
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.Form1.resources
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.formMain.resources
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.Properties.Resources.resources
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csproj.GenerateResource.cache
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.exe
+C:\Users\Yusuf Kemal Ozturk\source\repos\Uitleen_systeem\Uitleen_systeem\obj\Debug\Uitleen_systeem.pdb
