@@ -16,5 +16,40 @@ namespace Uitleen_systeem
         {
             InitializeComponent();
         }
+
+        private void uitloggenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Wilt u uitloggen?", "Confirm", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            
+                
+            
+            
+        }
+
+        private void apparatenToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void apparatenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ApparaatToev apt = new ApparaatToev();
+            apt.Show();
+        }
+
+        private void docentenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Beheerder bhd= new Beheerder();
+            bhd.Show();
+        }
+
+        private void apparaatUitlenenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uitlenen uitl = new uitlenen();
+            uitl.Show();
+        }
     }
 }

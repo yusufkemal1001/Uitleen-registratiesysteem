@@ -74,8 +74,11 @@ namespace Uitleen_systeem
             {
                 formMain objformMain = new formMain();
                 objformMain.Show();
+                this.Hide();
             }
             mysqlcon.Close();
+            
+
         }
         
 
@@ -86,12 +89,27 @@ namespace Uitleen_systeem
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
         {
-            
+            if(txtUsername.Text != "" && txtPassword.Text != "")
+            {
+                btnLogin.Enabled = true;
+
+            }
+            else
+            {
+                btnLogin.Enabled = false;
+            }
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
-            
+            if (txtPassword.Text != "" && txtUsername.Text != "")
+            {
+                btnLogin.Enabled = true;
+            }
+            else
+            {
+                btnLogin.Enabled = false;
+            }
         }
     }
 }
