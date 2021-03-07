@@ -18,7 +18,7 @@ namespace Uitleen_systeem
 
 
         MySqlConnection mysqlcon = null;
-
+        
         int i;
         public Form1()
         {
@@ -110,6 +110,11 @@ namespace Uitleen_systeem
             {
                 btnLogin.Enabled = false;
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

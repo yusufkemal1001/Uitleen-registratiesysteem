@@ -34,6 +34,7 @@ namespace Uitleen_systeem
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.apparatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.docentenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.studentenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apparaatUitlenenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apparaatRetournerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uitgeleendeApparatenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,13 +48,14 @@ namespace Uitleen_systeem
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.apparatenToolStripMenuItem,
             this.docentenToolStripMenuItem,
+            this.studentenToolStripMenuItem,
             this.apparaatUitlenenToolStripMenuItem,
             this.apparaatRetournerenToolStripMenuItem,
             this.uitgeleendeApparatenToolStripMenuItem,
             this.uitloggenToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(836, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(930, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,6 +79,15 @@ namespace Uitleen_systeem
             this.docentenToolStripMenuItem.Text = "Docenten";
             this.docentenToolStripMenuItem.Click += new System.EventHandler(this.docentenToolStripMenuItem_Click);
             // 
+            // studentenToolStripMenuItem
+            // 
+            this.studentenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.studentenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.studentenToolStripMenuItem.Name = "studentenToolStripMenuItem";
+            this.studentenToolStripMenuItem.Size = new System.Drawing.Size(92, 25);
+            this.studentenToolStripMenuItem.Text = "Studenten";
+            this.studentenToolStripMenuItem.Click += new System.EventHandler(this.studentenToolStripMenuItem_Click);
+            // 
             // apparaatUitlenenToolStripMenuItem
             // 
             this.apparaatUitlenenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -95,6 +106,7 @@ namespace Uitleen_systeem
             this.apparaatRetournerenToolStripMenuItem.Name = "apparaatRetournerenToolStripMenuItem";
             this.apparaatRetournerenToolStripMenuItem.Size = new System.Drawing.Size(188, 25);
             this.apparaatRetournerenToolStripMenuItem.Text = "Apparaat retourneren";
+            this.apparaatRetournerenToolStripMenuItem.Click += new System.EventHandler(this.apparaatRetournerenToolStripMenuItem_Click);
             // 
             // uitgeleendeApparatenToolStripMenuItem
             // 
@@ -127,7 +139,7 @@ namespace Uitleen_systeem
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(836, 539);
+            this.ClientSize = new System.Drawing.Size(930, 539);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
@@ -151,5 +163,6 @@ namespace Uitleen_systeem
         private System.Windows.Forms.ToolStripMenuItem uitgeleendeApparatenToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uitloggenToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem studentenToolStripMenuItem;
     }
 }

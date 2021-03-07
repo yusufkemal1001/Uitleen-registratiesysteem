@@ -51,5 +51,16 @@ namespace Uitleen_systeem
             uitlenen uitl = new uitlenen();
             uitl.Show();
         }
+
+        private void apparaatRetournerenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            students stud= new students();
+            stud.Show();
+        }
     }
 }

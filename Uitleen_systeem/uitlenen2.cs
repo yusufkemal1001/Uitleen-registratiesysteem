@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Uitleen_systeem
 {
-    public partial class uitlenen : Form
+    public partial class uitlenen2 : Form
     {
-        public uitlenen()
+        public uitlenen2()
         {
             InitializeComponent();
         }
