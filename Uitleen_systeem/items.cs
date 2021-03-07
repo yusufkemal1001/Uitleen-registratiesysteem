@@ -123,7 +123,7 @@ namespace Uitleen_systeem
                 mysqlcon.Open();
                 MySqlCommand cmd = mysqlcon.CreateCommand();
                 cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "insert into item(category_id, item_name, item_status, item_description) values('" + rowId + "','" + nName + "','" + nState + "','" + nDescr + "') ";
+                cmd.CommandText = "insert into item(category_id, item_name, item_status, item_description,uitgeleende_status) values('" + rowId + "','" + nName + "','" + nState + "','" + nDescr + "','Nog uit te lenen') ";
                 cmd.ExecuteNonQuery();
                 mysqlcon.Close();
 
@@ -255,6 +255,11 @@ namespace Uitleen_systeem
         private void button1_Click(object sender, EventArgs e)
         {
             txtSearch.Clear();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 

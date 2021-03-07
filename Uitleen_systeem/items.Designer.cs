@@ -73,6 +73,7 @@ namespace Uitleen_systeem
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(284, 187);
             this.panel2.TabIndex = 26;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // label5
             // 

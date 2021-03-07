@@ -377,7 +377,6 @@ namespace Uitleen_systeem
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Beheerder";
-            this.Opacity = 0.3D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Beheerder";
             this.Load += new System.EventHandler(this.Beheerder_Load);

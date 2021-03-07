@@ -48,8 +48,7 @@ namespace Uitleen_systeem
 
         private void apparaatUitlenenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            uitlenen uitl = new uitlenen();
-            uitl.Show();
+            
         }
 
         private void apparaatRetournerenToolStripMenuItem_Click(object sender, EventArgs e)

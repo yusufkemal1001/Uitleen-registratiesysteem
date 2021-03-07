@@ -112,10 +112,10 @@ C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.formMain.resources
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.items.resources
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.Properties.Resources.resources
-C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.uitlenen.resources
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csproj.GenerateResource.cache
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csproj.CoreCompileInputs.cache
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.csproj.CopyComplete
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.exe
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.pdb
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.students.resources
+C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.uitlenen2.resources
