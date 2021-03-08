@@ -78,9 +78,10 @@ namespace Uitleen_systeem
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 87);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label5.Location = new System.Drawing.Point(9, 87);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.Size = new System.Drawing.Size(85, 16);
             this.label5.TabIndex = 41;
             this.label5.Text = "Omschrijving";
             // 
@@ -94,9 +95,10 @@ namespace Uitleen_systeem
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 61);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label7.Location = new System.Drawing.Point(9, 61);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 13);
+            this.label7.Size = new System.Drawing.Size(45, 16);
             this.label7.TabIndex = 39;
             this.label7.Text = "Status";
             // 
@@ -110,9 +112,10 @@ namespace Uitleen_systeem
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(17, 38);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label9.Location = new System.Drawing.Point(9, 38);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.Size = new System.Drawing.Size(45, 16);
             this.label9.TabIndex = 35;
             this.label9.Text = "Naam";
             // 
@@ -135,9 +138,10 @@ namespace Uitleen_systeem
             // 
             // btnAdd
             // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
             this.btnAdd.Location = new System.Drawing.Point(104, 136);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(76, 23);
+            this.btnAdd.Size = new System.Drawing.Size(88, 26);
             this.btnAdd.TabIndex = 20;
             this.btnAdd.Text = "Toevoegen";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -163,9 +167,10 @@ namespace Uitleen_systeem
             // omschr
             // 
             this.omschr.AutoSize = true;
-            this.omschr.Location = new System.Drawing.Point(17, 81);
+            this.omschr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.omschr.Location = new System.Drawing.Point(9, 81);
             this.omschr.Name = "omschr";
-            this.omschr.Size = new System.Drawing.Size(67, 13);
+            this.omschr.Size = new System.Drawing.Size(85, 16);
             this.omschr.TabIndex = 29;
             this.omschr.Text = "Omschrijving";
             // 
@@ -179,9 +184,10 @@ namespace Uitleen_systeem
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(17, 55);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label6.Location = new System.Drawing.Point(9, 55);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.Size = new System.Drawing.Size(45, 16);
             this.label6.TabIndex = 27;
             this.label6.Text = "Status";
             // 
@@ -195,14 +201,16 @@ namespace Uitleen_systeem
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(17, 29);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label3.Location = new System.Drawing.Point(9, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(45, 16);
             this.label3.TabIndex = 23;
             this.label3.Text = "Naam";
             // 
             // btnUpdate
             // 
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
             this.btnUpdate.Location = new System.Drawing.Point(183, 131);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(76, 23);
@@ -213,6 +221,7 @@ namespace Uitleen_systeem
             // 
             // btnDelete
             // 
+            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
             this.btnDelete.Location = new System.Drawing.Point(20, 131);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(76, 23);
@@ -264,10 +273,10 @@ namespace Uitleen_systeem
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(178, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(59, 25);
+            this.label2.Size = new System.Drawing.Size(64, 25);
             this.label2.TabIndex = 20;
             this.label2.Text = "Items";
             // 

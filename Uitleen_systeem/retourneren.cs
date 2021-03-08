@@ -16,7 +16,7 @@ namespace Uitleen_systeem
         int i;
         MySqlConnection mysqlcon = null;
         Int64 rowId;
-        int item_id;
+        
         int ID;
         public retourneren()
         {
@@ -25,6 +25,10 @@ namespace Uitleen_systeem
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            if (txtSearch.Text != "")
+            {
+
+            
             string server = "localhost";
             string database = "uitleen_systeem";
             string dbUsername = "root";
@@ -46,7 +50,19 @@ namespace Uitleen_systeem
             DataSet ds = new DataSet();
             sda.Fill(ds);
             i = Convert.ToInt32(dtbl.Rows.Count.ToString());
-            dataGridView1.DataSource = ds.Tables[0];
+
+                if (ds.Tables[0].Rows.Count != 0)
+                {
+                    dataGridView1.DataSource = ds.Tables[0];
+                }
+                else
+                {
+                    
+                    txtSearch.Clear();
+                    MessageBox.Show("Onjuist student nummer", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            
 
         }
 
@@ -163,6 +179,14 @@ namespace Uitleen_systeem
         private void txtComment_TextChanged(object sender, EventArgs e)
         {
             btnRetour.Enabled=true;
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            if (txtSearch.Text != "")
+            {
+
+            }
         }
     }
 }

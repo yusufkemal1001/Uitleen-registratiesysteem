@@ -89,9 +89,10 @@ namespace Uitleen_systeem
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label14.Location = new System.Drawing.Point(17, 135);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(68, 13);
+            this.label14.Size = new System.Drawing.Size(75, 15);
             this.label14.TabIndex = 37;
             this.label14.Text = "Wachtwoord";
             // 
@@ -105,46 +106,50 @@ namespace Uitleen_systeem
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label6.Location = new System.Drawing.Point(17, 109);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 13);
+            this.label6.Size = new System.Drawing.Size(99, 15);
             this.label6.TabIndex = 35;
             this.label6.Text = "Gebruikersnaam";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label5.Location = new System.Drawing.Point(17, 83);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 13);
+            this.label5.Size = new System.Drawing.Size(55, 15);
             this.label5.TabIndex = 34;
             this.label5.Text = "Geslacht";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label10.Location = new System.Drawing.Point(17, 54);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.Size = new System.Drawing.Size(47, 15);
             this.label10.TabIndex = 32;
             this.label10.Text = "Leeftijd";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label13.Location = new System.Drawing.Point(17, 28);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(35, 13);
+            this.label13.Size = new System.Drawing.Size(41, 15);
             this.label13.TabIndex = 33;
             this.label13.Text = "Naam";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(231, 5);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
+            this.label12.Location = new System.Drawing.Point(122, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(111, 13);
+            this.label12.Size = new System.Drawing.Size(126, 15);
             this.label12.TabIndex = 32;
             this.label12.Text = "Nieuwe Beheerder";
             // 
@@ -171,6 +176,7 @@ namespace Uitleen_systeem
             // 
             // userAdd
             // 
+            this.userAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.userAdd.Location = new System.Drawing.Point(138, 161);
             this.userAdd.Name = "userAdd";
             this.userAdd.Size = new System.Drawing.Size(76, 23);
@@ -218,9 +224,10 @@ namespace Uitleen_systeem
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label11.Location = new System.Drawing.Point(17, 83);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 13);
+            this.label11.Size = new System.Drawing.Size(55, 15);
             this.label11.TabIndex = 30;
             this.label11.Text = "Geslacht";
             // 
@@ -248,41 +255,46 @@ namespace Uitleen_systeem
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label9.Location = new System.Drawing.Point(17, 110);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(84, 13);
+            this.label9.Size = new System.Drawing.Size(99, 15);
             this.label9.TabIndex = 26;
             this.label9.Text = "Gebruikersnaam";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label8.Location = new System.Drawing.Point(17, 139);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 13);
+            this.label8.Size = new System.Drawing.Size(75, 15);
             this.label8.TabIndex = 25;
             this.label8.Text = "Wachtwoord";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label7.Location = new System.Drawing.Point(17, 50);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 13);
+            this.label7.Size = new System.Drawing.Size(47, 15);
             this.label7.TabIndex = 24;
             this.label7.Text = "Leeftijd";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label3.Location = new System.Drawing.Point(17, 19);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(41, 15);
             this.label3.TabIndex = 23;
             this.label3.Text = "Naam";
             // 
             // userUpdate
             // 
+            this.userUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.userUpdate.Location = new System.Drawing.Point(221, 174);
             this.userUpdate.Name = "userUpdate";
             this.userUpdate.Size = new System.Drawing.Size(76, 23);
@@ -293,9 +305,10 @@ namespace Uitleen_systeem
             // 
             // userDelete
             // 
+            this.userDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.userDelete.Location = new System.Drawing.Point(20, 174);
             this.userDelete.Name = "userDelete";
-            this.userDelete.Size = new System.Drawing.Size(76, 23);
+            this.userDelete.Size = new System.Drawing.Size(81, 23);
             this.userDelete.TabIndex = 24;
             this.userDelete.Text = "Verwijderen";
             this.userDelete.UseVisualStyleBackColor = true;
@@ -323,9 +336,10 @@ namespace Uitleen_systeem
             // 
             // btnRefresh
             // 
+            this.btnRefresh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnRefresh.Location = new System.Drawing.Point(786, 4);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(76, 23);
+            this.btnRefresh.Size = new System.Drawing.Size(84, 23);
             this.btnRefresh.TabIndex = 23;
             this.btnRefresh.Text = "Vernieuwen";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -354,10 +368,10 @@ namespace Uitleen_systeem
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(379, 1);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 25);
+            this.label2.Size = new System.Drawing.Size(123, 25);
             this.label2.TabIndex = 20;
             this.label2.Text = "Beheerders";
             // 

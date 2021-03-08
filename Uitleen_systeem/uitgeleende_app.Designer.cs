@@ -35,6 +35,7 @@ namespace Uitleen_systeem
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(-2, -2);
             this.dataGridView1.Name = "dataGridView1";
@@ -45,9 +46,12 @@ namespace Uitleen_systeem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(809, 463);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "uitgeleende_app";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "uitgeleende_app";
             this.Load += new System.EventHandler(this.uitgeleende_app_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

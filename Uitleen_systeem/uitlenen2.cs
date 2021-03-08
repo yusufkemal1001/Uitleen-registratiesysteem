@@ -182,31 +182,41 @@ namespace Uitleen_systeem
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string server = "localhost";
-            string database = "uitleen_systeem";
-            string dbUsername = "root";
-            string dbPassword = "";
-            string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+            if (txtSearch.Text != "")
+            {
+                string server = "localhost";
+                string database = "uitleen_systeem";
+                string dbUsername = "root";
+                string dbPassword = "";
+                string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
 
-                database + ";" + "UID=" + dbUsername + ";" + "PASSWORD=" + dbPassword + ";";
+                    database + ";" + "UID=" + dbUsername + ";" + "PASSWORD=" + dbPassword + ";";
 
-            mysqlcon = new MySqlConnection(connectionString);
+                mysqlcon = new MySqlConnection(connectionString);
 
-            i = 0;
-            mysqlcon.Open();
-            MySqlCommand cmd = mysqlcon.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "Select * from students where student_number='" + txtSearch.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dtbl = new DataTable();
-            MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            sda.Fill(ds);
-            i = Convert.ToInt32(dtbl.Rows.Count.ToString());
-
-            txtName.Text = ds.Tables[0].Rows[0][1].ToString();
-            txtNumber.Text = ds.Tables[0].Rows[0][2].ToString();
-
+                i = 0;
+                mysqlcon.Open();
+                MySqlCommand cmd = mysqlcon.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "Select * from students where student_number='" + txtSearch.Text + "'";
+                cmd.ExecuteNonQuery();
+                DataTable dtbl = new DataTable();
+                MySqlDataAdapter sda = new MySqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                sda.Fill(ds);
+                i = Convert.ToInt32(dtbl.Rows.Count.ToString());
+                if (ds.Tables[0].Rows.Count != 0)
+                {
+                    txtName.Text = ds.Tables[0].Rows[0][1].ToString();
+                    txtNumber.Text = ds.Tables[0].Rows[0][2].ToString();
+                }
+                else
+                {
+                    txtName.Clear();
+                    txtNumber.Clear();
+                    MessageBox.Show("Onjuist student nummer", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
 
         }
 
@@ -324,6 +334,16 @@ namespace Uitleen_systeem
                     MessageBox.Show("Item is uitgeleend!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

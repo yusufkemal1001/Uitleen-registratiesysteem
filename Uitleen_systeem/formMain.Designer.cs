@@ -55,76 +55,78 @@ namespace Uitleen_systeem
             this.uitloggenToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(930, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1140, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // apparatenToolStripMenuItem
             // 
             this.apparatenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.apparatenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.apparatenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.apparatenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("apparatenToolStripMenuItem.Image")));
             this.apparatenToolStripMenuItem.Name = "apparatenToolStripMenuItem";
-            this.apparatenToolStripMenuItem.Size = new System.Drawing.Size(76, 25);
+            this.apparatenToolStripMenuItem.Size = new System.Drawing.Size(87, 32);
             this.apparatenToolStripMenuItem.Text = "Items";
             this.apparatenToolStripMenuItem.Click += new System.EventHandler(this.apparatenToolStripMenuItem_Click);
             // 
             // docentenToolStripMenuItem
             // 
             this.docentenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.docentenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.docentenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.docentenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("docentenToolStripMenuItem.Image")));
             this.docentenToolStripMenuItem.Name = "docentenToolStripMenuItem";
-            this.docentenToolStripMenuItem.Size = new System.Drawing.Size(104, 25);
+            this.docentenToolStripMenuItem.Size = new System.Drawing.Size(124, 32);
             this.docentenToolStripMenuItem.Text = "Docenten";
             this.docentenToolStripMenuItem.Click += new System.EventHandler(this.docentenToolStripMenuItem_Click);
             // 
             // studentenToolStripMenuItem
             // 
             this.studentenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.studentenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.studentenToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.studentenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
+            this.studentenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("studentenToolStripMenuItem.Image")));
             this.studentenToolStripMenuItem.Name = "studentenToolStripMenuItem";
-            this.studentenToolStripMenuItem.Size = new System.Drawing.Size(92, 25);
+            this.studentenToolStripMenuItem.Size = new System.Drawing.Size(129, 32);
             this.studentenToolStripMenuItem.Text = "Studenten";
             this.studentenToolStripMenuItem.Click += new System.EventHandler(this.studentenToolStripMenuItem_Click);
             // 
             // apparaatUitlenenToolStripMenuItem
             // 
             this.apparaatUitlenenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.apparaatUitlenenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.apparaatUitlenenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.apparaatUitlenenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("apparaatUitlenenToolStripMenuItem.Image")));
             this.apparaatUitlenenToolStripMenuItem.Name = "apparaatUitlenenToolStripMenuItem";
-            this.apparaatUitlenenToolStripMenuItem.Size = new System.Drawing.Size(161, 25);
+            this.apparaatUitlenenToolStripMenuItem.Size = new System.Drawing.Size(196, 32);
             this.apparaatUitlenenToolStripMenuItem.Text = "Apparaat uitlenen";
             this.apparaatUitlenenToolStripMenuItem.Click += new System.EventHandler(this.apparaatUitlenenToolStripMenuItem_Click);
             // 
             // apparaatRetournerenToolStripMenuItem
             // 
             this.apparaatRetournerenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.apparaatRetournerenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.apparaatRetournerenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.apparaatRetournerenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("apparaatRetournerenToolStripMenuItem.Image")));
             this.apparaatRetournerenToolStripMenuItem.Name = "apparaatRetournerenToolStripMenuItem";
-            this.apparaatRetournerenToolStripMenuItem.Size = new System.Drawing.Size(188, 25);
+            this.apparaatRetournerenToolStripMenuItem.Size = new System.Drawing.Size(229, 32);
             this.apparaatRetournerenToolStripMenuItem.Text = "Apparaat retourneren";
             this.apparaatRetournerenToolStripMenuItem.Click += new System.EventHandler(this.apparaatRetournerenToolStripMenuItem_Click);
             // 
             // uitgeleendeApparatenToolStripMenuItem
             // 
             this.uitgeleendeApparatenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.uitgeleendeApparatenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.uitgeleendeApparatenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.uitgeleendeApparatenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uitgeleendeApparatenToolStripMenuItem.Image")));
             this.uitgeleendeApparatenToolStripMenuItem.Name = "uitgeleendeApparatenToolStripMenuItem";
-            this.uitgeleendeApparatenToolStripMenuItem.Size = new System.Drawing.Size(195, 25);
+            this.uitgeleendeApparatenToolStripMenuItem.Size = new System.Drawing.Size(240, 32);
             this.uitgeleendeApparatenToolStripMenuItem.Text = "Uitgeleende apparaten";
             this.uitgeleendeApparatenToolStripMenuItem.Click += new System.EventHandler(this.uitgeleendeApparatenToolStripMenuItem_Click);
             // 
             // uitloggenToolStripMenuItem
             // 
             this.uitloggenToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.uitloggenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.uitloggenToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.uitloggenToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uitloggenToolStripMenuItem.Image")));
             this.uitloggenToolStripMenuItem.Name = "uitloggenToolStripMenuItem";
-            this.uitloggenToolStripMenuItem.Size = new System.Drawing.Size(106, 25);
+            this.uitloggenToolStripMenuItem.Size = new System.Drawing.Size(128, 32);
             this.uitloggenToolStripMenuItem.Text = "Uitloggen";
             this.uitloggenToolStripMenuItem.Click += new System.EventHandler(this.uitloggenToolStripMenuItem_Click);
             // 
@@ -139,8 +141,8 @@ namespace Uitleen_systeem
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(930, 539);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1140, 571);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
