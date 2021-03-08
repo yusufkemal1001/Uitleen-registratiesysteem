@@ -48,18 +48,26 @@ namespace Uitleen_systeem
 
         private void apparaatUitlenenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            uitlenen2 uit = new uitlenen2();
+            uit.Show();
         }
 
         private void apparaatRetournerenToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            retourneren retour = new retourneren();
+            retour.Show();
         }
 
         private void studentenToolStripMenuItem_Click(object sender, EventArgs e)
         {
             students stud= new students();
             stud.Show();
+        }
+
+        private void uitgeleendeApparatenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            uitgeleende_app uitApp = new uitgeleende_app();
+            uitApp.Show();
         }
     }
 }

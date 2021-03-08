@@ -15,7 +15,7 @@ namespace Uitleen_systeem
     {
         MySqlConnection mysqlcon = null;
         int i;
-        int user_id;
+        
         Int64 rowId;
         int student_id;
         public students()

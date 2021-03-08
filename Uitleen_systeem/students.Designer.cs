@@ -63,9 +63,9 @@ namespace Uitleen_systeem
             this.panel2.Controls.Add(this.nName);
             this.panel2.Controls.Add(this.userAdd);
             this.panel2.Controls.Add(this.nAge);
-            this.panel2.Location = new System.Drawing.Point(482, 287);
+            this.panel2.Location = new System.Drawing.Point(482, 294);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(317, 131);
+            this.panel2.Size = new System.Drawing.Size(317, 124);
             this.panel2.TabIndex = 33;
             // 
             // label10
@@ -90,11 +90,11 @@ namespace Uitleen_systeem
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(231, 5);
+            this.label12.Location = new System.Drawing.Point(111, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(111, 13);
+            this.label12.Size = new System.Drawing.Size(95, 13);
             this.label12.TabIndex = 32;
-            this.label12.Text = "Nieuwe Beheerder";
+            this.label12.Text = "Nieuwe student";
             // 
             // nName
             // 
@@ -195,7 +195,7 @@ namespace Uitleen_systeem
             this.dataGridView1.Location = new System.Drawing.Point(18, 63);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(437, 355);
+            this.dataGridView1.Size = new System.Drawing.Size(458, 355);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -233,18 +233,18 @@ namespace Uitleen_systeem
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(342, -3);
+            this.label2.Location = new System.Drawing.Point(353, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 25);
+            this.label2.Size = new System.Drawing.Size(102, 25);
             this.label2.TabIndex = 28;
-            this.label2.Text = "Beheerders";
+            this.label2.Text = "Studenten";
             // 
             // students
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(893, 525);
+            this.ClientSize = new System.Drawing.Size(821, 436);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);

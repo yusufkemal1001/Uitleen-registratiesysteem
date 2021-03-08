@@ -119,3 +119,5 @@ C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.pdb
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.students.resources
 C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.uitlenen2.resources
+C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.uitgeleende_app.resources
+C:\Users\Yusuf Kemal Ozturk\Documents\GitHub\Uitleen-registratiesysteem\Uitleen_systeem\obj\Debug\Uitleen_systeem.retourneren.resources

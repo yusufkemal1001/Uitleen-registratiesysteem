@@ -116,6 +116,7 @@ namespace Uitleen_systeem
             this.uitgeleendeApparatenToolStripMenuItem.Name = "uitgeleendeApparatenToolStripMenuItem";
             this.uitgeleendeApparatenToolStripMenuItem.Size = new System.Drawing.Size(195, 25);
             this.uitgeleendeApparatenToolStripMenuItem.Text = "Uitgeleende apparaten";
+            this.uitgeleendeApparatenToolStripMenuItem.Click += new System.EventHandler(this.uitgeleendeApparatenToolStripMenuItem_Click);
             // 
             // uitloggenToolStripMenuItem
             // 
