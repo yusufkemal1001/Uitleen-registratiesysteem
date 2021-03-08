@@ -230,13 +230,17 @@ namespace Uitleen_systeem
 
         private void dateTimeRetourneer_ValueChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void dateTimeUitleen_ValueChanged(object sender, EventArgs e)
         {
-            dateTimeRetourneer.MinDate = dateTimeUitleen.Value.AddDays(1);
+
             dateTimeRetourneer.MaxDate = dateTimeUitleen.Value.AddDays(7);
+            dateTimeRetourneer.MinDate = dateTimeUitleen.Value.AddDays(1);
+            
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)

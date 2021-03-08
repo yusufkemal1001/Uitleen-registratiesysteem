@@ -205,7 +205,7 @@ namespace Uitleen_systeem
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label5.Location = new System.Drawing.Point(17, 45);
+            this.label5.Location = new System.Drawing.Point(3, 39);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(106, 15);
             this.label5.TabIndex = 19;
